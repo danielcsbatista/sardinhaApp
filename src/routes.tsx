@@ -14,7 +14,7 @@ const Routes = () => {
         headerMode="none"
         screenOptions={{ cardStyle: { backgroundColor: "#f0f0f5" } }}
       >
-        <AppStack.Screen name="Login" component={Login} />
+        <AppStack.Screen name="DashBoard" component={DashBoard} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
