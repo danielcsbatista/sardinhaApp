@@ -1,11 +1,14 @@
 import React from "react";
 import { View, Text } from "react-native";
+import BaseLayout from "../../container/baseLayout";
 
 const DashBoard = () => {
   return (
-    <View>
-      <Text>Dashbord</Text>
-    </View>
+    <BaseLayout>
+      <View>
+        <Text>Dashbord</Text>
+      </View>
+    </BaseLayout>
   );
 };
 
